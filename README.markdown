@@ -11,7 +11,7 @@ used to clean my mind up.
 Because. Today young and not-so-young rubyists like the concepts of
 self-documenting code and good BDD. Yet they often neglect one human feature:
 monkey reads => monkey understands. Quality of the majority of _real_ good
-software's RDoc/Yard/Readme/Everyting dovumentation is _really_ poor. So from
+software's RDoc/Yard/Readme/Everyting documentation is _really_ poor. So from
 time to time I have to re-learn the libs, frameworks and techniques myself. My
 opensource-centered mind and vainglorious ego, of course, wouldn't allow me to 
 keep all this great knowledge under the desk. So here it is.
@@ -34,16 +34,17 @@ the tests.
 
 See the examples:
 
-1. <features/thor_class_option_right.feature>
-2. <features/thor_class_option_wrong.feature>
+1. <./features/thor_class_option_right.feature>
+2. <./features/thor_class_option_wrong.feature>
 
 This way I decided that one-dash-one-letter options is kinda good tradition after all.
 
 One more stupid knowledge bug was eliminated.
 
 ## LICENSE:
-Literature: [![CC-BY][1]][2]
-Code: [MIT][3]
+
+* Literature: [![CC-BY][1]][2]
+* Code: [MIT][3]
 
 [1]: http://i.creativecommons.org/l/by/3.0/88x31.png
 [2]: http://creativecommons.org/licenses/by/3.0/ "CC-BY License"
