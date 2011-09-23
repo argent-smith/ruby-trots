@@ -34,8 +34,8 @@ the tests.
 
 See the examples:
 
-1. features/thor_class_option_right.feature
-2. features/thor_class_option_wrong.feature
+1. argent-smith/ruby-trots/features/thor_class_option_right.feature
+2. argent-smith/ruby-trots/features/thor_class_option_wrong.feature
 
 This way I decided that one-dash-one-letter options is kinda good tradition after all.
 
