@@ -34,8 +34,8 @@ the tests.
 
 See the examples:
 
-1. argent-smith/ruby-trots/features/thor_class_option_right.feature
-2. argent-smith/ruby-trots/features/thor_class_option_wrong.feature
+1. [thor_class_option_right.feature][4]
+2. [thor_class_option_wrong.feature][5]
 
 This way I decided that one-dash-one-letter options is kinda good tradition after all.
 
@@ -48,4 +48,6 @@ One more stupid knowledge bug was eliminated.
 
 [1]: http://i.creativecommons.org/l/by/3.0/80x15.png
 [2]: http://creativecommons.org/licenses/by/3.0/ "CC-BY License"
-[3]: argent-smith/ruby-trots/LICENSE.markdown "MIT License"
+[3]: https://github.com/argent-smith/ruby-trots/blob/master/LICENSE.markdown "MIT License"
+[4]: https://github.com/argent-smith/ruby-trots/blob/master/features/thor_class_option_right.feature "see the file"
+[5]: https://github.com/argent-smith/ruby-trots/blob/master/features/thor_class_option_wrong.feature "see the file"
