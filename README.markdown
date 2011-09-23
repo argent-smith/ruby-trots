@@ -48,4 +48,4 @@ One more stupid knowledge bug was eliminated.
 
 [1]: http://i.creativecommons.org/l/by/3.0/80x15.png
 [2]: http://creativecommons.org/licenses/by/3.0/ "CC-BY License"
-[3]: https://github.com/argent-smith/ruby-trots/LICENSE.markdown "MIT License"
+[3]: argent-smith/ruby-trots/LICENSE.markdown "MIT License"
