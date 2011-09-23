@@ -1,2 +1,2 @@
 default: --color
-autotest: --format pretty --color --tags @wip
+autotest: --format pretty --color

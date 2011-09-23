@@ -10,6 +10,7 @@ RSpec.configure do |config|
   config.fail_fast = true
 end
 
+# this is for aruba-like spec examples
 module UsesTempFiles
   def self.included(example_group)
     example_group.extend(self)

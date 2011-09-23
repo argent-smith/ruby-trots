@@ -38,7 +38,6 @@ Feature: Thor::Group#class_option ignores one-dash-multi-letter alias
       """
       And I run `chmod +x example.rb`
 
-  @wip
   Scenario Outline: it runs zoo task with different options
     When I run `./example.rb zoo <option> <value>`
     Then the output should contain:

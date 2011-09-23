@@ -1,5 +1,7 @@
-require "bundler/gem_tasks"
+require "bundler"
+require "bundler/setup"
 
+Bundler.setup
 
 require 'cucumber/rake/task'
 Cucumber::Rake::Task.new(:features) do |features|

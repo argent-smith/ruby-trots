@@ -3,4 +3,3 @@ require 'bundler/setup'
 require 'fileutils'
 require 'aruba/cucumber'
 
-require 'mkhotspot'

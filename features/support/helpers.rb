@@ -1,6 +1,7 @@
-module Mkhotspot
+module Trots
   module CucumberHelpers
   end
 end
 
-World(Mkhotspot::CucumberHelpers)
+World(Trots::CucumberHelpers)
+
