@@ -34,18 +34,18 @@ the tests.
 
 See the examples:
 
-1. <./features/thor_class_option_right.feature>
-2. <./features/thor_class_option_wrong.feature>
+1. features/thor_class_option_right.feature
+2. features/thor_class_option_wrong.feature
 
 This way I decided that one-dash-one-letter options is kinda good tradition after all.
 
 One more stupid knowledge bug was eliminated.
 
-## LICENSE:
+## LICENSES:
 
 * Literature: [![CC-BY][1]][2]
 * Code: [MIT][3]
 
-[1]: http://i.creativecommons.org/l/by/3.0/88x31.png
+[1]: http://i.creativecommons.org/l/by/3.0/80x15.png
 [2]: http://creativecommons.org/licenses/by/3.0/ "CC-BY License"
-[3]: LICENSE "MIT License"
+[3]: https://github.com/argent-smith/ruby-trots/LICENSE.markdown "MIT License"
