@@ -72,6 +72,9 @@ Feature: Suspected #directory issue
     Then the following files should not exist:
       | generated/what_i_want_to_see.txt   |
       | generated/what_i_want_to_see_1.txt |
+    And the following files should exist:
+      | templates/%what_was_here%.txt.tt   |
+      | templates/%what_was_here%_1.txt    |
 
   Scenario: I expect it to create files with correct names
     When I run `./tester_right test`
