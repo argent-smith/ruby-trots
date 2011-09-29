@@ -48,6 +48,7 @@ The next rake in the grass was my first attempt to work with templated
 filenames while doing a custom generator. [Thor doc][6] reads:
 
 > Copies recursively the files from source directory to root directory. If any of the files finishes with .tt, it’s considered to be a template and is placed in the destination without the extension .tt. If any empty directory is found, it’s copied and all .empty_directory files are ignored. Remember that file paths can also be encoded, let’s suppose a doc directory with the following files:
+> 
 > ```
 >   doc/
 >     components/.empty_directory
@@ -79,7 +80,7 @@ hard and chatting with Thor guys I found that _I should never use private_ to
 hide my methods: while not `public` they're invisible to the Thor API.
 Instead, I should use this:
 
-```
+```ruby
 no_tasks do
 
   def meth_one
