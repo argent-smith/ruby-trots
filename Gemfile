@@ -12,4 +12,4 @@ gem "ZenTest"
 gem "test-unit"
 gem "redgreen"
 gem "ruby-graphviz"
-
+gem "kramdown"

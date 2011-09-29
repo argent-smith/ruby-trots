@@ -39,4 +39,18 @@ namespace :autotest do
   end
 end
 
+file "README.html" => "README.markdown" do |t|
+  system "kramdown #{t.prerequisites.first} > #{t.name}"
+end
+
+desc "Generate README.html"
+task :html => "README.html" do |t|
+  puts "#{t.prerequisites.first} generated"
+end
+
+desc "Clean up the generated stuff"
+task :clean do
+  system "git clean -fd"
+end
+
 task :default => [:spec, :features]
