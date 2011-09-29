@@ -84,11 +84,11 @@ Instead, I should use this:
 no_tasks do
 
   def meth_one
-    ...
+    "one"
   end
 
   def meth_two
-    ...
+    "two"
   end
 
 end
