@@ -53,4 +53,4 @@ task :clean do
   system "git clean -fd"
 end
 
-task :default => [:spec, :features]
+task :default => ["spec:doc", "features:pretty"]
